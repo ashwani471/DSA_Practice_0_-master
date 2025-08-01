@@ -916,11 +916,13 @@ void keypad(int input , string output){
   for(int i = 0 ; i<str.size() ; i++){
     keypad(smallnum , str[i]+output);
   }
-}
+} 
 
 int main(){
-    int n,x;;
+    int n,x;
+    cout<<"Enter value of n:"<<endl;
     cin>>n;
+    cout<<"Enter value of x:"<<endl;
     cin>>x;
     // int output = factorial(n);
     int output = power(x,n);

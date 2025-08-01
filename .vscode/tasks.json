@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run array01.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "Array/array01.cpp",
+        "-o",
+        "Array/array01.exe",
+        "&&",
+        ".\\Array\\array01.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
